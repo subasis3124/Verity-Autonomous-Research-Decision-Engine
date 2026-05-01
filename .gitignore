@@ -1,0 +1,52 @@
+# ==========================
+# Root & General
+# ==========================
+.env
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+veritynv/
+# ==========================
+# Backend (Python / FastAPI)
+# ==========================
+backend/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+backend/alembic.ini
+backend/logs.txt
+veritynv/
+*.sqlite3
+
+# ==========================
+# Frontend (React / Vite)
+# ==========================
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.eslintcache
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ==========================
+# Mobile (Flutter)
+# ==========================
+verity_mobile/.dart_tool/
+verity_mobile/.flutter-plugins
+verity_mobile/.flutter-plugins-dependencies
+verity_mobile/.pub-cache/
+verity_mobile/.pub/
+verity_mobile/build/
+verity_mobile/android/local.properties
+verity_mobile/ios/.generated/
+verity_mobile/ios/Flutter/App.framework
+verity_mobile/ios/Flutter/Flutter.framework
+verity_mobile/ios/Flutter/Flutter.podspec
+verity_mobile/ios/Flutter/Generated.xcconfig
+verity_mobile/ios/Flutter/app.flx
+verity_mobile/ios/Flutter/app.zip
+verity_mobile/ios/Flutter/flutter_assets/
+verity_mobile/ios/Flutter/flutter_export_environment.sh
+verity_mobile/ios/Pods/
